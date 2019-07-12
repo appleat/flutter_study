@@ -6,6 +6,7 @@ import 'demo/drawer_demo.dart';
 import 'demo/layout_demo.dart';
 import 'demo/listview_demo.dart';
 import 'demo/view_demo.dart';
+import 'demo/sliver_demo.dart';
 
 void main() => runApp(MyApp());
 
@@ -60,7 +61,8 @@ class Home extends StatelessWidget {
             ListViewDemo(),
             BasicDemo(),
             LayoutDemo(),
-            ViewDemo()
+            // ViewDemo(),
+            SliverDemo(),
           ],
         ),
         drawer: DrawerDemo(),
