@@ -2,42 +2,57 @@ class Post {
   final String name;
   final String director;
   final String url;
+  final String description;
 
-  const Post({this.director, this.name, this.url});
+  const Post({this.director, this.name, this.url, this.description});
 }
 
 final List<Post> posts = [
   Post(
       name: '千与千寻',
       director: '宫崎骏',
-      url: 'http://img5.mtime.cn/mg/2019/05/07/094557.27137848_270X405X4.jpg'),
+      url: 'http://img5.mtime.cn/mg/2019/05/07/094557.27137848_270X405X4.jpg',
+      description:
+          '千寻和爸爸妈妈一同驱车前往新家，在郊外的小路上不慎进入了神秘的隧道——他们去到了另外一个诡异世界—在郊外的小路上不慎进入了神秘的隧道——他们去到了另外一个诡异世界—在郊外的小路上不慎进入了神秘的隧道——他们去到了另外一个诡异世界—一个中世纪的小镇。远处飘来食物的香味，爸爸妈妈大快朵颐，孰料之后变成了猪！这时小镇上渐渐来了许多样子古怪、半透明的人。在郊外的小路上不慎进入了神秘的隧道——他们去到了另外一个诡异世界4—'),
   Post(
       name: '狮子王',
       director: '乔恩·费儒',
       url:
-          'http://img3.doubanio.com/view/photo/s_ratio_poster/public/p2559742751.webp'),
+          'http://img3.doubanio.com/view/photo/s_ratio_poster/public/p2559742751.webp',
+      description:
+          '千寻和爸爸妈妈一同驱车前往新家，在郊外的小路上不慎进入了神秘的隧道——他们去到了另外一个诡异世界—一个中世纪的小镇。远处飘来食物的香味，爸爸妈妈大快朵颐，孰料之后变成了猪！这时小镇上渐渐来了许多样子古怪、半透明的人。 千寻仓皇逃出，一个叫小白的人救了他，喂了她阻止身体消 失的药，并且告诉她怎样去找锅炉爷爷以及汤婆婆，而且必须获得一份工作才能不被魔法变成别的东西。'),
   Post(
       name: '哪吒',
       director: '饺子',
       url:
-          'http://img3.doubanio.com/view/photo/s_ratio_poster/public/p2561876551.webp'),
+          'http://img3.doubanio.com/view/photo/s_ratio_poster/public/p2561876551.webp',
+      description:
+          '千寻和爸爸妈妈一同驱车前往新家，在郊外的小路上不慎进入了神秘的隧道——他们去到了另外一个诡异世界—一个中世纪的小镇。远处飘来食物的香味，爸爸妈妈大快朵颐，孰料之后变成了猪！这时小镇上渐渐来了许多样子古怪、半透明的人。 千寻仓皇逃出，一个叫小白的人救了他，喂了她阻止身体消 失的药，并且告诉她怎样去找锅炉爷爷以及汤婆婆，而且必须获得一份工作才能不被魔法变成别的东西。'),
   Post(
       name: '哥斯拉',
       director: '迈克尔·道赫蒂',
       url:
-          'http://img3.doubanio.com/view/photo/s_ratio_poster/public/p2554370800.webp'),
+          'http://img3.doubanio.com/view/photo/s_ratio_poster/public/p2554370800.webp',
+      description:
+          '千寻和爸爸妈妈一同驱车前往新家，在郊外的小路上不慎进入了神秘的隧道——他们去到了另外一个诡异世界—一个中世纪的小镇。远处飘来食物的香味，爸爸妈妈大快朵颐，孰料之后变成了猪！这时小镇上渐渐来了许多样子古怪、半透明的人。 千寻仓皇逃出，一个叫小白的人救了他，喂了她阻止身体消 失的药，并且告诉她怎样去找锅炉爷爷以及汤婆婆，而且必须获得一份工作才能不被魔法变成别的东西。'),
   Post(
       name: '绿皮书',
       director: '彼得·法雷里',
       url:
-          'http://img3.doubanio.com/view/photo/s_ratio_poster/public/p2549177902.jpg'),
+          'http://img3.doubanio.com/view/photo/s_ratio_poster/public/p2549177902.jpg',
+      description:
+          '千寻和爸爸妈妈一同驱车前往新家，在郊外的小路上不慎进入了神秘的隧道——他们去到了另外一个诡异世界—一个中世纪的小镇。远处飘来食物的香味，爸爸妈妈大快朵颐，孰料之后变成了猪！这时小镇上渐渐来了许多样子古怪、半透明的人。 千寻仓皇逃出，一个叫小白的人救了他，喂了她阻止身体消 失的药，并且告诉她怎样去找锅炉爷爷以及汤婆婆，而且必须获得一份工作才能不被魔法变成别的东西。'),
   Post(
       name: '流浪地球',
       director: '郭帆',
       url:
-          'http://img3.doubanio.com/view/photo/s_ratio_poster/public/p2545472803.jpg'),
+          'http://img3.doubanio.com/view/photo/s_ratio_poster/public/p2545472803.jpg',
+      description:
+          '千寻和爸爸妈妈一同驱车前往新家，在郊外的小路上不慎进入了神秘的隧道——他们去到了另外一个诡异世界—一个中世纪的小镇。远处飘来食物的香味，爸爸妈妈大快朵颐，孰料之后变成了猪！这时小镇上渐渐来了许多样子古怪、半透明的人。 千寻仓皇逃出，一个叫小白的人救了他，喂了她阻止身体消 失的药，并且告诉她怎样去找锅炉爷爷以及汤婆婆，而且必须获得一份工作才能不被魔法变成别的东西。'),
   Post(
       name: '阿丽塔：战斗天使',
       director: '罗伯特·罗德里格兹',
-      url: 'http://img5.mtime.cn/mg/2019/01/09/171109.73085148_270X405X4.jpg'),
+      url: 'http://img5.mtime.cn/mg/2019/01/09/171109.73085148_270X405X4.jpg',
+      description:
+          '千寻和爸爸妈妈一同驱车前往新家，在郊外的小路上不慎进入了神秘的隧道——他们去到了另外一个诡异世界—一个中世纪的小镇。远处飘来食物的香味，爸爸妈妈大快朵颐，孰料之后变成了猪！这时小镇上渐渐来了许多样子古怪、半透明的人。 千寻仓皇逃出，一个叫小白的人救了他，喂了她阻止身体消 失的药，并且告诉她怎样去找锅炉爷爷以及汤婆婆，而且必须获得一份工作才能不被魔法变成别的东西。'),
 ];
