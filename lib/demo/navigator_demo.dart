@@ -15,6 +15,12 @@ class NavigatorDemo extends StatelessWidget {
               Navigator.pushNamed(context, "/home");
             },
           ),
+           FlatButton(
+            child: Text("form"),
+            onPressed: (){
+              Navigator.pushNamed(context, "/form");
+            },
+          ),
           FlatButton(
             child: Text("about"),
             onPressed: () {
