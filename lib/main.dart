@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'demo/drawer_demo.dart';
-import 'demo/bottom_navigation_bar_demo.dart';
-import 'demo/listview_demo.dart';
+
 import 'demo/basic_demo.dart';
+import 'demo/bottom_navigation_bar_demo.dart';
+import 'demo/drawer_demo.dart';
 import 'demo/layout_demo.dart';
+import 'demo/listview_demo.dart';
+import 'demo/view_demo.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,15 +24,10 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3,
+      length: 4,
       child: Scaffold(
         backgroundColor: Colors.grey[100],
         appBar: AppBar(
-          // leading: IconButton(
-          //   icon: Icon(Icons.menu),
-          //   tooltip: '菜单',
-          //   onPressed: () => debugPrint('navigration button'),
-          // ),
           title: Text("Hello Flutter", textAlign: TextAlign.center),
           actions: <Widget>[
             IconButton(
@@ -52,6 +49,9 @@ class Home extends StatelessWidget {
               Tab(
                 icon: Icon(Icons.directions_bike),
               ),
+              Tab(
+                icon: Icon(Icons.directions_boat),
+              ),
             ],
           ),
         ),
@@ -60,6 +60,7 @@ class Home extends StatelessWidget {
             ListViewDemo(),
             BasicDemo(),
             LayoutDemo(),
+            ViewDemo()
           ],
         ),
         drawer: DrawerDemo(),

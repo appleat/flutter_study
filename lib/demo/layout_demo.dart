@@ -12,20 +12,18 @@ class ConstrainedBoxDemo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-      ConstrainedBox(
-        constraints: BoxConstraints(
-          minHeight: 200,
-          maxWidth: 200
-        ),
-        child: Container(
-          color: Colors.orange,
-        ),
-      )
-    ]));
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+          ConstrainedBox(
+            constraints: BoxConstraints(minHeight: 200, maxWidth: 200),
+            child: Container(
+              color: Colors.orange,
+            ),
+          )
+        ]));
   }
 }
+
 /*
  * 设置子部件宽高比
  */
@@ -34,15 +32,15 @@ class AspectRatioDemo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-      AspectRatio(
-        aspectRatio: 16 / 9,
-        child: Container(
-          color: Colors.orange,
-        ),
-      )
-    ]));
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+          AspectRatio(
+            aspectRatio: 16 / 9,
+            child: Container(
+              color: Colors.orange,
+            ),
+          )
+        ]));
   }
 }
 
